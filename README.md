@@ -51,7 +51,7 @@ crop_yield = ctrl.Consequent(np.arange(0, 101, 1), 'crop_yield')
 rainfall['low'] = fuzz.trimf(rainfall.universe, [0, 0, 100])
 rainfall['medium'] = fuzz.trimf(rainfall.universe, [50, 100, 150])
 rainfall['high'] = fuzz.trimf(rainfall.universe, [100, 200, 200])
-
+```
 # Continue defining membership functions for temperature, soil_fertility, and crop_yield...
 
 ### Running the Script

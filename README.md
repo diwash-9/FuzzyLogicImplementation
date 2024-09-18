@@ -13,9 +13,9 @@ The following Python libraries are required:
 - `numpy`
 - `scikit-fuzzy`
 
-  ```bash
+```bash
 pip install numpy scikit-fuzzy
-
+```
 ### How It Works
 
 #### Inputs (Antecedents):
@@ -62,6 +62,7 @@ rainfall['high'] = fuzz.trimf(rainfall.universe, [100, 200, 200])
 
 ```bash
 jupyter notebook fuzzy_logic_devraj_khatiwada.ipynb
+```
 
 
 

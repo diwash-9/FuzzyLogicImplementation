@@ -2,14 +2,15 @@ Fuzzy Logic Crop Yield Prediction
 This project uses a fuzzy logic system to predict crop yield based on inputs such as rainfall, temperature, and soil fertility. The system is built using the scikit-fuzzy Python library.
 
 Features
-Fuzzy inference system based on rainfall, temperature, and soil fertility.
-Predicts the crop yield based on these inputs using fuzzy logic principles.
-Customizable membership functions and rules for precise modeling.
+- Fuzzy inference system based on rainfall, temperature, and soil fertility.
+- Predicts the crop yield based on these inputs using fuzzy logic principles.
+- Customizable membership functions and rules for precise modeling.
+
 Dependencies
 The following Python libraries are required:
 
-numpy
-scikit-fuzzy
+- numpy
+- scikit-fuzzy
 You can install the dependencies using:
 
 bash
